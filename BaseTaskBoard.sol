@@ -30,3 +30,7 @@ contract BaseTaskBoard {
         return tasks[user].length;
     }
 }
+    function taskCount(address user) external view returns (uint256) {
+        return tasks[user].length;
+    }
+}
